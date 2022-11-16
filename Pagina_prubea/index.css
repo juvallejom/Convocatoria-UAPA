@@ -1,0 +1,220 @@
+.home {
+
+    left: 0.07%;
+    right: 0%;
+    top: 0%;
+    bottom: auto;
+    background-image: url(imagenes/rect1.jpg);
+    background-size: cover;
+
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+
+    justify-content:space-around;
+}
+
+.menu {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.Thome {
+    /* Home */
+    width: 43px;
+    height: 28px;
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Tprod {
+    width: 57px;
+    height: 28px;
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Tpric {
+    width: 51px;
+    height: 28px;
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Tabou {
+    width: 44px;
+    height: 28px;
+
+    /* Link */
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Tcont {
+    width: 58px;
+    height: 28px;
+
+    /* Link */
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.center {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tlogo {
+    
+    width: 80px;
+    height: 20px;
+    padding: 0px;
+    
+
+    background: url(imagenes/rect2.png);
+    background-size: cover;
+    border: 0px;
+    
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rigth {
+    display:flex;
+    padding: 10px;
+    gap: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Itwit {
+    
+    width: 32px;
+    height: 27px;
+
+    background: url(imagenes/TwitterIcon.png);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Iface {
+    width: 32px;
+    height: 32px;
+
+    background: url(imagenes/FacebookIcon.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Iinsta {
+    width: 32px;
+    height: 32px;
+
+    background: #FFFFFF;
+
+    background: url(imagenes/InstagramIcon.png);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
